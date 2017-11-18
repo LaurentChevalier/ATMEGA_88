@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "PWM_INT", "PWM_INT\PWM_INT.avrasmproj", "{39A19BA4-44B1-4124-9E67-58D30BED1092}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39A19BA4-44B1-4124-9E67-58D30BED1092}.Debug|AVR.ActiveCfg = Debug|AVR
+		{39A19BA4-44B1-4124-9E67-58D30BED1092}.Debug|AVR.Build.0 = Debug|AVR
+		{39A19BA4-44B1-4124-9E67-58D30BED1092}.Release|AVR.ActiveCfg = Release|AVR
+		{39A19BA4-44B1-4124-9E67-58D30BED1092}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

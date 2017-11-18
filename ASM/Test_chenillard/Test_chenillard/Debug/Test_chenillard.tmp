@@ -1,0 +1,30 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.43</VERSION>
+ <DEVICE>ATmega88</DEVICE>
+ <WORKING_DIR>C:\Users\laure\Documents\AVRStudio\Assembleur\Test_chenillard\Test_chenillard\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Test_chenillard\Test_chenillard\Test_chenillard.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include\m88def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Test_chenillard\Test_chenillard\Debug/Test_chenillard.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Test_chenillard\Test_chenillard\Debug/Test_chenillard.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Test_chenillard\Test_chenillard\Debug/Test_chenillard.map</FILE>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Test_chenillard\Test_chenillard\Debug/Test_chenillard.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Test_chenillard\Test_chenillard\Test_chenillard.asm</FILE><LINE>19</LINE></RESET>
+  <Programme><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Test_chenillard\Test_chenillard\Test_chenillard.asm</FILE><LINE>24</LINE></Programme>
+  <Attendreunpeu4><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Test_chenillard\Test_chenillard\Test_chenillard.asm</FILE><LINE>29</LINE></Attendreunpeu4>
+  <programme2><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Test_chenillard\Test_chenillard\Test_chenillard.asm</FILE><LINE>43</LINE></programme2>
+  <Attendreunpeu1><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Test_chenillard\Test_chenillard\Test_chenillard.asm</FILE><LINE>47</LINE></Attendreunpeu1>
+  <fin><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Test_chenillard\Test_chenillard\Test_chenillard.asm</FILE><LINE>64</LINE></fin>
+ </LABELS>
+</ASSEMBLER_INFO>

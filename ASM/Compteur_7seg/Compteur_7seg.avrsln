@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "Compteur_7seg", "Compteur_7seg\Compteur_7seg.avrasmproj", "{DBFA4AF8-47EF-4839-861E-ECCF21D5B893}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBFA4AF8-47EF-4839-861E-ECCF21D5B893}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DBFA4AF8-47EF-4839-861E-ECCF21D5B893}.Debug|AVR.Build.0 = Debug|AVR
+		{DBFA4AF8-47EF-4839-861E-ECCF21D5B893}.Release|AVR.ActiveCfg = Release|AVR
+		{DBFA4AF8-47EF-4839-861E-ECCF21D5B893}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

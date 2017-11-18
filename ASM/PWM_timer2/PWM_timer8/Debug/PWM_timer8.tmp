@@ -1,0 +1,26 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.43</VERSION>
+ <DEVICE>ATmega88</DEVICE>
+ <WORKING_DIR>C:\Users\laure\Documents\AVRStudio\Assembleur\PWM_timer2\PWM_timer8\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\PWM_timer2\PWM_timer8\PWM_timer8.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include\m88def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\PWM_timer2\PWM_timer8\Debug/PWM_timer8.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\PWM_timer2\PWM_timer8\Debug/PWM_timer8.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\PWM_timer2\PWM_timer8\Debug/PWM_timer8.map</FILE>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\PWM_timer2\PWM_timer8\Debug/PWM_timer8.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\PWM_timer2\PWM_timer8\PWM_timer8.asm</FILE><LINE>17</LINE></start>
+  <main><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\PWM_timer2\PWM_timer8\PWM_timer8.asm</FILE><LINE>42</LINE></main>
+ </LABELS>
+</ASSEMBLER_INFO>

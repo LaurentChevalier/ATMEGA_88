@@ -1,0 +1,29 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.43</VERSION>
+ <DEVICE>ATmega88</DEVICE>
+ <WORKING_DIR>C:\Users\laure\Documents\AVRStudio\Assembleur\Blink_LED\Blink_LED\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Blink_LED\Blink_LED\Blink_LED.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include\m88def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Blink_LED\Blink_LED\Debug/Blink_LED.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Blink_LED\Blink_LED\Debug/Blink_LED.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Blink_LED\Blink_LED\Debug/Blink_LED.map</FILE>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Blink_LED\Blink_LED\Debug/Blink_LED.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <START><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Blink_LED\Blink_LED\Blink_LED.asm</FILE><LINE>17</LINE></START>
+  <decr><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Blink_LED\Blink_LED\Blink_LED.asm</FILE><LINE>28</LINE></decr>
+  <affichage><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Blink_LED\Blink_LED\Blink_LED.asm</FILE><LINE>34</LINE></affichage>
+  <incr><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Blink_LED\Blink_LED\Blink_LED.asm</FILE><LINE>39</LINE></incr>
+  <END><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Blink_LED\Blink_LED\Blink_LED.asm</FILE><LINE>46</LINE></END>
+ </LABELS>
+</ASSEMBLER_INFO>

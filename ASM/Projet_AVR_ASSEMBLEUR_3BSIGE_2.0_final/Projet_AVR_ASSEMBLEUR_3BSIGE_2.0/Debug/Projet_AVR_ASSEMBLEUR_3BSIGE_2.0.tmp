@@ -1,0 +1,89 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.43</VERSION>
+ <DEVICE>ATmega88</DEVICE>
+ <WORKING_DIR>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include\m88def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Debug/Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Debug/Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Debug/Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.map</FILE>
+  <FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Debug/Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>38</LINE></start>
+  <Interrup_INT0><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>115</LINE></Interrup_INT0>
+  <Timer_CTC_Mode><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>142</LINE></Timer_CTC_Mode>
+  <ADC_COMPLETE><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>359</LINE></ADC_COMPLETE>
+  <Main><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>478</LINE></Main>
+  <eteindre><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>132</LINE></eteindre>
+  <allumer><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>121</LINE></allumer>
+  <ledclignote><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>150</LINE></ledclignote>
+  <ledclignote_5HZ><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>155</LINE></ledclignote_5HZ>
+  <ledclignote_1HZ><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>161</LINE></ledclignote_1HZ>
+  <clignote><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>167</LINE></clignote>
+  <Affichage_val><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>172</LINE></Affichage_val>
+  <affichage><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>235</LINE></affichage>
+  <affichage_stop><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>182</LINE></affichage_stop>
+  <afficheS><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>194</LINE></afficheS>
+  <afficheT><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>204</LINE></afficheT>
+  <afficheO><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>214</LINE></afficheO>
+  <afficheP><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>225</LINE></afficheP>
+  <affichage7seg><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>237</LINE></affichage7seg>
+  <affiche_mille><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>247</LINE></affiche_mille>
+  <affiche_cent><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>254</LINE></affiche_cent>
+  <affiche_dix><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>261</LINE></affiche_dix>
+  <affiche_unit><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>268</LINE></affiche_unit>
+  <segment><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>276</LINE></segment>
+  <zero><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>299</LINE></zero>
+  <un><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>305</LINE></un>
+  <deux><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>311</LINE></deux>
+  <trois><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>317</LINE></trois>
+  <quatre><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>323</LINE></quatre>
+  <cinq><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>329</LINE></cinq>
+  <six><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>335</LINE></six>
+  <sept><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>341</LINE></sept>
+  <huit><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>347</LINE></huit>
+  <neuf><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>353</LINE></neuf>
+  <shift_left><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>365</LINE></shift_left>
+  <Decomposition_nombre><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>377</LINE></Decomposition_nombre>
+  <centaines><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>388</LINE></centaines>
+  <ajout100><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>395</LINE></ajout100>
+  <inc_centaines><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>391</LINE></inc_centaines>
+  <dizaines><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>400</LINE></dizaines>
+  <ajout10><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>407</LINE></ajout10>
+  <inc_dizaines><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>403</LINE></inc_dizaines>
+  <unites><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>412</LINE></unites>
+  <bits_poids_fort><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>415</LINE></bits_poids_fort>
+  <test512><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>419</LINE></test512>
+  <ajouter512><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>426</LINE></ajouter512>
+  <test256><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>433</LINE></test256>
+  <ajouter256><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>440</LINE></ajouter256>
+  <report><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>448</LINE></report>
+  <report_unites><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>457</LINE></report_unites>
+  <report_dizaines><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>466</LINE></report_dizaines>
+  <report_centaines><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>473</LINE></report_centaines>
+  <USART_TEST><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>480</LINE></USART_TEST>
+  <Reception_usart><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>486</LINE></Reception_usart>
+  <Emission_usart><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>507</LINE></Emission_usart>
+  <Reset><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>496</LINE></Reset>
+  <Affichage_USART><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>513</LINE></Affichage_USART>
+  <caract1><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>534</LINE></caract1>
+  <caract2><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>537</LINE></caract2>
+  <caract3><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>540</LINE></caract3>
+  <caract4><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>544</LINE></caract4>
+  <caract5><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>549</LINE></caract5>
+  <caract6><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>554</LINE></caract6>
+  <caract7><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>559</LINE></caract7>
+  <caract8><FILE>D:\Mes documents\DOCUMENTS ECOLE\3BSI GE\Q2\Reseaux et system info\Projet\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0\Projet_AVR_ASSEMBLEUR_3BSIGE_2.0.asm</FILE><LINE>564</LINE></caract8>
+ </LABELS>
+</ASSEMBLER_INFO>

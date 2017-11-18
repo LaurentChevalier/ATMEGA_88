@@ -1,0 +1,29 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.43</VERSION>
+ <DEVICE>ATmega88</DEVICE>
+ <WORKING_DIR>C:\Users\laure\Documents\AVRStudio\Assembleur\ADC_7SEG_Affichage_Valeur_Conversion\ADC_7SEG_Affichage_Valeur_Conversion\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\ADC_7SEG_Affichage_Valeur_Conversion\ADC_7SEG_Affichage_Valeur_Conversion\ADC_7SEG_Affichage_Valeur_Conversion.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include\m88def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\ADC_7SEG_Affichage_Valeur_Conversion\ADC_7SEG_Affichage_Valeur_Conversion\Debug/ADC_7SEG_Affichage_Valeur_Conversion.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\ADC_7SEG_Affichage_Valeur_Conversion\ADC_7SEG_Affichage_Valeur_Conversion\Debug/ADC_7SEG_Affichage_Valeur_Conversion.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\ADC_7SEG_Affichage_Valeur_Conversion\ADC_7SEG_Affichage_Valeur_Conversion\Debug/ADC_7SEG_Affichage_Valeur_Conversion.map</FILE>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\ADC_7SEG_Affichage_Valeur_Conversion\ADC_7SEG_Affichage_Valeur_Conversion\Debug/ADC_7SEG_Affichage_Valeur_Conversion.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\ADC_7SEG_Affichage_Valeur_Conversion\ADC_7SEG_Affichage_Valeur_Conversion\ADC_7SEG_Affichage_Valeur_Conversion.asm</FILE><LINE>33</LINE></start>
+  <Timer_CTC_Mode><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\ADC_7SEG_Affichage_Valeur_Conversion\ADC_7SEG_Affichage_Valeur_Conversion\ADC_7SEG_Affichage_Valeur_Conversion.asm</FILE><LINE>77</LINE></Timer_CTC_Mode>
+  <ADC_COMPLETE><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\ADC_7SEG_Affichage_Valeur_Conversion\ADC_7SEG_Affichage_Valeur_Conversion\ADC_7SEG_Affichage_Valeur_Conversion.asm</FILE><LINE>85</LINE></ADC_COMPLETE>
+  <delay><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\ADC_7SEG_Affichage_Valeur_Conversion\ADC_7SEG_Affichage_Valeur_Conversion\ADC_7SEG_Affichage_Valeur_Conversion.asm</FILE><LINE>106</LINE></delay>
+  <shift_left><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\ADC_7SEG_Affichage_Valeur_Conversion\ADC_7SEG_Affichage_Valeur_Conversion\ADC_7SEG_Affichage_Valeur_Conversion.asm</FILE><LINE>91</LINE></shift_left>
+ </LABELS>
+</ASSEMBLER_INFO>

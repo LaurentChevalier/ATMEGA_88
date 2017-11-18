@@ -1,0 +1,38 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.43</VERSION>
+ <DEVICE>ATmega88</DEVICE>
+ <WORKING_DIR>C:\Users\laure\Documents\AVRStudio\Assembleur\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include\m88def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX\Debug/7_SEG_MULTIPLEX.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX\Debug/7_SEG_MULTIPLEX.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX\Debug/7_SEG_MULTIPLEX.map</FILE>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX\Debug/7_SEG_MULTIPLEX.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX.asm</FILE><LINE>19</LINE></start>
+  <S><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX.asm</FILE><LINE>36</LINE></S>
+  <tempo1><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX.asm</FILE><LINE>45</LINE></tempo1>
+  <T><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX.asm</FILE><LINE>53</LINE></T>
+  <decr1><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX.asm</FILE><LINE>49</LINE></decr1>
+  <tempo2><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX.asm</FILE><LINE>62</LINE></tempo2>
+  <O><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX.asm</FILE><LINE>70</LINE></O>
+  <decr2><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX.asm</FILE><LINE>66</LINE></decr2>
+  <tempo3><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX.asm</FILE><LINE>79</LINE></tempo3>
+  <P><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX.asm</FILE><LINE>87</LINE></P>
+  <decr3><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX.asm</FILE><LINE>83</LINE></decr3>
+  <tempo4><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX.asm</FILE><LINE>96</LINE></tempo4>
+  <Retour><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX.asm</FILE><LINE>104</LINE></Retour>
+  <decr4><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX\7_SEG_MULTIPLEX.asm</FILE><LINE>100</LINE></decr4>
+ </LABELS>
+</ASSEMBLER_INFO>

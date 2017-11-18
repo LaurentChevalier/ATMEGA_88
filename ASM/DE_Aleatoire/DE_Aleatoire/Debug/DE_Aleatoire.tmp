@@ -1,0 +1,39 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.43</VERSION>
+ <DEVICE>ATmega88</DEVICE>
+ <WORKING_DIR>C:\Users\laure\Documents\AVRStudio\Assembleur\DE_Aleatoire\DE_Aleatoire\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\DE_Aleatoire\DE_Aleatoire\DE_Aleatoire.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include\m88def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\DE_Aleatoire\DE_Aleatoire\Debug/DE_Aleatoire.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\DE_Aleatoire\DE_Aleatoire\Debug/DE_Aleatoire.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\DE_Aleatoire\DE_Aleatoire\Debug/DE_Aleatoire.map</FILE>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\DE_Aleatoire\DE_Aleatoire\Debug/DE_Aleatoire.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\DE_Aleatoire\DE_Aleatoire\DE_Aleatoire.asm</FILE><LINE>17</LINE></start>
+  <interrup><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\DE_Aleatoire\DE_Aleatoire\DE_Aleatoire.asm</FILE><LINE>56</LINE></interrup>
+  <delay><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\DE_Aleatoire\DE_Aleatoire\DE_Aleatoire.asm</FILE><LINE>151</LINE></delay>
+  <decr><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\DE_Aleatoire\DE_Aleatoire\DE_Aleatoire.asm</FILE><LINE>60</LINE></decr>
+  <affichage><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\DE_Aleatoire\DE_Aleatoire\DE_Aleatoire.asm</FILE><LINE>66</LINE></affichage>
+  <zero><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\DE_Aleatoire\DE_Aleatoire\DE_Aleatoire.asm</FILE><LINE>90</LINE></zero>
+  <un><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\DE_Aleatoire\DE_Aleatoire\DE_Aleatoire.asm</FILE><LINE>96</LINE></un>
+  <deux><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\DE_Aleatoire\DE_Aleatoire\DE_Aleatoire.asm</FILE><LINE>102</LINE></deux>
+  <trois><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\DE_Aleatoire\DE_Aleatoire\DE_Aleatoire.asm</FILE><LINE>108</LINE></trois>
+  <quatre><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\DE_Aleatoire\DE_Aleatoire\DE_Aleatoire.asm</FILE><LINE>114</LINE></quatre>
+  <cinq><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\DE_Aleatoire\DE_Aleatoire\DE_Aleatoire.asm</FILE><LINE>120</LINE></cinq>
+  <six><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\DE_Aleatoire\DE_Aleatoire\DE_Aleatoire.asm</FILE><LINE>126</LINE></six>
+  <sept><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\DE_Aleatoire\DE_Aleatoire\DE_Aleatoire.asm</FILE><LINE>132</LINE></sept>
+  <huit><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\DE_Aleatoire\DE_Aleatoire\DE_Aleatoire.asm</FILE><LINE>138</LINE></huit>
+  <neuf><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\DE_Aleatoire\DE_Aleatoire\DE_Aleatoire.asm</FILE><LINE>144</LINE></neuf>
+ </LABELS>
+</ASSEMBLER_INFO>

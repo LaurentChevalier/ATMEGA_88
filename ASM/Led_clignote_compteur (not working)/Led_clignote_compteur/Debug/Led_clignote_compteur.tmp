@@ -1,0 +1,29 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.43</VERSION>
+ <DEVICE>ATmega88</DEVICE>
+ <WORKING_DIR>C:\Users\laure\Documents\AVRStudio\Assembleur\Led_clignote_compteur\Led_clignote_compteur\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Led_clignote_compteur\Led_clignote_compteur\Led_clignote_compteur.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include\m88def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Led_clignote_compteur\Led_clignote_compteur\Debug/Led_clignote_compteur.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Led_clignote_compteur\Led_clignote_compteur\Debug/Led_clignote_compteur.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Led_clignote_compteur\Led_clignote_compteur\Debug/Led_clignote_compteur.map</FILE>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Led_clignote_compteur\Led_clignote_compteur\Debug/Led_clignote_compteur.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Led_clignote_compteur\Led_clignote_compteur\Led_clignote_compteur.asm</FILE><LINE>35</LINE></RESET>
+  <INTERRUPTION><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Led_clignote_compteur\Led_clignote_compteur\Led_clignote_compteur.asm</FILE><LINE>69</LINE></INTERRUPTION>
+  <Main><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Led_clignote_compteur\Led_clignote_compteur\Led_clignote_compteur.asm</FILE><LINE>61</LINE></Main>
+  <eteind><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Led_clignote_compteur\Led_clignote_compteur\Led_clignote_compteur.asm</FILE><LINE>78</LINE></eteind>
+  <fin><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\Led_clignote_compteur\Led_clignote_compteur\Led_clignote_compteur.asm</FILE><LINE>83</LINE></fin>
+ </LABELS>
+</ASSEMBLER_INFO>

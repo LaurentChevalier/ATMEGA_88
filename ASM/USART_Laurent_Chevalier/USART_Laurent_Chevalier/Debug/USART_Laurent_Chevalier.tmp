@@ -1,0 +1,38 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.43</VERSION>
+ <DEVICE>ATmega88</DEVICE>
+ <WORKING_DIR>C:\Users\laure\Documents\AVRStudio\Assembleur\USART_Laurent_Chevalier\USART_Laurent_Chevalier\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\USART_Laurent_Chevalier\USART_Laurent_Chevalier\USART_Laurent_Chevalier.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include\m88def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\USART_Laurent_Chevalier\USART_Laurent_Chevalier\Debug/USART_Laurent_Chevalier.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\USART_Laurent_Chevalier\USART_Laurent_Chevalier\Debug/USART_Laurent_Chevalier.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\USART_Laurent_Chevalier\USART_Laurent_Chevalier\Debug/USART_Laurent_Chevalier.map</FILE>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\USART_Laurent_Chevalier\USART_Laurent_Chevalier\Debug/USART_Laurent_Chevalier.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\USART_Laurent_Chevalier\USART_Laurent_Chevalier\USART_Laurent_Chevalier.asm</FILE><LINE>18</LINE></start>
+  <Timer_CTC_Mode><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\USART_Laurent_Chevalier\USART_Laurent_Chevalier\USART_Laurent_Chevalier.asm</FILE><LINE>61</LINE></Timer_CTC_Mode>
+  <delay><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\USART_Laurent_Chevalier\USART_Laurent_Chevalier\USART_Laurent_Chevalier.asm</FILE><LINE>139</LINE></delay>
+  <c><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\USART_Laurent_Chevalier\USART_Laurent_Chevalier\USART_Laurent_Chevalier.asm</FILE><LINE>91</LINE></c>
+  <h><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\USART_Laurent_Chevalier\USART_Laurent_Chevalier\USART_Laurent_Chevalier.asm</FILE><LINE>95</LINE></h>
+  <e><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\USART_Laurent_Chevalier\USART_Laurent_Chevalier\USART_Laurent_Chevalier.asm</FILE><LINE>99</LINE></e>
+  <v><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\USART_Laurent_Chevalier\USART_Laurent_Chevalier\USART_Laurent_Chevalier.asm</FILE><LINE>103</LINE></v>
+  <a><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\USART_Laurent_Chevalier\USART_Laurent_Chevalier\USART_Laurent_Chevalier.asm</FILE><LINE>107</LINE></a>
+  <l><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\USART_Laurent_Chevalier\USART_Laurent_Chevalier\USART_Laurent_Chevalier.asm</FILE><LINE>111</LINE></l>
+  <i><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\USART_Laurent_Chevalier\USART_Laurent_Chevalier\USART_Laurent_Chevalier.asm</FILE><LINE>115</LINE></i>
+  <ee><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\USART_Laurent_Chevalier\USART_Laurent_Chevalier\USART_Laurent_Chevalier.asm</FILE><LINE>119</LINE></ee>
+  <r><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\USART_Laurent_Chevalier\USART_Laurent_Chevalier\USART_Laurent_Chevalier.asm</FILE><LINE>123</LINE></r>
+  <retour><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\USART_Laurent_Chevalier\USART_Laurent_Chevalier\USART_Laurent_Chevalier.asm</FILE><LINE>127</LINE></retour>
+  <retourn><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\USART_Laurent_Chevalier\USART_Laurent_Chevalier\USART_Laurent_Chevalier.asm</FILE><LINE>131</LINE></retourn>
+ </LABELS>
+</ASSEMBLER_INFO>

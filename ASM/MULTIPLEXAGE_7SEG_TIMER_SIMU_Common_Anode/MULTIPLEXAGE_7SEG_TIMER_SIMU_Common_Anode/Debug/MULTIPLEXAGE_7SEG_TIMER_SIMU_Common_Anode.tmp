@@ -1,0 +1,31 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.43</VERSION>
+ <DEVICE>ATmega88</DEVICE>
+ <WORKING_DIR>C:\Users\laure\Documents\AVRStudio\Assembleur\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include\m88def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\Debug/MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\Debug/MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\Debug/MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode.map</FILE>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\Debug/MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode.asm</FILE><LINE>22</LINE></start>
+  <compteur_ctc><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode.asm</FILE><LINE>53</LINE></compteur_ctc>
+  <delay><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode.asm</FILE><LINE>113</LINE></delay>
+  <zero><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode.asm</FILE><LINE>69</LINE></zero>
+  <un><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode.asm</FILE><LINE>80</LINE></un>
+  <deux><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode.asm</FILE><LINE>91</LINE></deux>
+  <trois><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode\MULTIPLEXAGE_7SEG_TIMER_SIMU_Common_Anode.asm</FILE><LINE>102</LINE></trois>
+ </LABELS>
+</ASSEMBLER_INFO>

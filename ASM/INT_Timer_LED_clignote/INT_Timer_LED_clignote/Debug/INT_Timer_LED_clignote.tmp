@@ -1,0 +1,30 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.43</VERSION>
+ <DEVICE>ATmega88</DEVICE>
+ <WORKING_DIR>C:\Users\laure\Documents\AVRStudio\Assembleur\INT_Timer_LED_clignote\INT_Timer_LED_clignote\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\INT_Timer_LED_clignote\INT_Timer_LED_clignote\INT_Timer_LED_clignote.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Studio 5.0\avrassembler\include\m88def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\INT_Timer_LED_clignote\INT_Timer_LED_clignote\Debug/INT_Timer_LED_clignote.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\INT_Timer_LED_clignote\INT_Timer_LED_clignote\Debug/INT_Timer_LED_clignote.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\INT_Timer_LED_clignote\INT_Timer_LED_clignote\Debug/INT_Timer_LED_clignote.map</FILE>
+  <FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\INT_Timer_LED_clignote\INT_Timer_LED_clignote\Debug/INT_Timer_LED_clignote.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\INT_Timer_LED_clignote\INT_Timer_LED_clignote\INT_Timer_LED_clignote.asm</FILE><LINE>21</LINE></start>
+  <interrup><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\INT_Timer_LED_clignote\INT_Timer_LED_clignote\INT_Timer_LED_clignote.asm</FILE><LINE>60</LINE></interrup>
+  <switch_led><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\INT_Timer_LED_clignote\INT_Timer_LED_clignote\INT_Timer_LED_clignote.asm</FILE><LINE>82</LINE></switch_led>
+  <delay><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\INT_Timer_LED_clignote\INT_Timer_LED_clignote\INT_Timer_LED_clignote.asm</FILE><LINE>87</LINE></delay>
+  <setup><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\INT_Timer_LED_clignote\INT_Timer_LED_clignote\INT_Timer_LED_clignote.asm</FILE><LINE>73</LINE></setup>
+  <reset><FILE>C:\Users\laure\Documents\AVRStudio\Assembleur\INT_Timer_LED_clignote\INT_Timer_LED_clignote\INT_Timer_LED_clignote.asm</FILE><LINE>66</LINE></reset>
+ </LABELS>
+</ASSEMBLER_INFO>

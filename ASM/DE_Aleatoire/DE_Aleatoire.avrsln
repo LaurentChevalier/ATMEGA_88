@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "DE_Aleatoire", "DE_Aleatoire\DE_Aleatoire.avrasmproj", "{9F5B46F5-C5CD-4B30-8088-2864CE8650EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F5B46F5-C5CD-4B30-8088-2864CE8650EE}.Debug|AVR.ActiveCfg = Debug|AVR
+		{9F5B46F5-C5CD-4B30-8088-2864CE8650EE}.Debug|AVR.Build.0 = Debug|AVR
+		{9F5B46F5-C5CD-4B30-8088-2864CE8650EE}.Release|AVR.ActiveCfg = Release|AVR
+		{9F5B46F5-C5CD-4B30-8088-2864CE8650EE}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
