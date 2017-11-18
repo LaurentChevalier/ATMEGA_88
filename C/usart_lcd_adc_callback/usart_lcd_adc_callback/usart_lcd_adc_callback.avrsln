@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{D1100916-62DA-4D80-A9B4-55A1E7CCEEB3}") = "usart_lcd_adc_callback", "usart_lcd_adc_callback.avrgccproj", "{C1391236-259B-4514-BEC0-0450F9649F14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1391236-259B-4514-BEC0-0450F9649F14}.Debug|AVR.ActiveCfg = Debug|AVR
+		{C1391236-259B-4514-BEC0-0450F9649F14}.Debug|AVR.Build.0 = Debug|AVR
+		{C1391236-259B-4514-BEC0-0450F9649F14}.Release|AVR.ActiveCfg = Release|AVR
+		{C1391236-259B-4514-BEC0-0450F9649F14}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

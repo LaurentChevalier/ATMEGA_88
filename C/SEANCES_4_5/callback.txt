@@ -1,0 +1,201 @@
+/*
+ * Callbacks.c
+ *
+ * Created: 22-09-16 11:24:50
+ *  Author: Laurent Chevalier
+ */ 
+
+
+#include <avr/io.h>
+#include <avr/interrupt.h>
+#include <stdlib.h>
+
+#include "callback.h"
+#include "TIMERS.h"
+#include "Main.h"
+#include "usart.h"
+#include "lcd.h"
+
+// VARIABLES GLOBALES
+unsigned char tmp_int; // pour l'interruption du timer
+// VARIABLES POUR CALLBACKS TIMER
+void (*My_CB[MAX_CALLBACKS])(void);
+unsigned int Time_CB[MAX_CALLBACKS];
+unsigned int TICK_CB[MAX_CALLBACKS];
+
+void (*My_Usart)(char*);
+void (*My_Button)(char);
+
+extern volatile unsigned char nombre_appuis_bouton;
+char buffer[MAXUSART];
+unsigned char idxBuf = 0;
+char Receive_complete = FALSE;
+
+char Button = NONE;
+volatile char int2ascii[20];
+volatile char int2asciiMax[20];
+volatile char int2asciiMin[20];
+volatile int temperature=0;
+volatile int temperatureMaxMin[2]={0 ,100};
+int temperatureMax=80;
+int temperatureMin=20;
+int counterADC=0;
+// DECLARATION DES FONCTIONS INTERNES
+
+
+// CONTENU DES FONCTIONS EXTERNES
+void Callbacks_Init(void) 
+{
+	unsigned char i ;
+	// INITIALISATION POUR VARIABLES CALLBACKS TIMER
+	for (i = 0 ; i < MAX_CALLBACKS; i++)
+	{
+		My_CB[i] = 0;
+		//Time_CB[i] = 0; // Pas obligatoire
+	}
+	// INITIALISATION DU LCD
+	// CONFIGURATION USART POUR INTERRUPTION RD
+}
+// ENREGISTREMENT CALLBACKS TIMER
+unsigned char Callbacks_Record_Timer(void(*pt_Function)(void), unsigned int Time)
+{
+	unsigned int i = 0;
+	while (My_CB[i] != 0 && i < MAX_CALLBACKS) i++;
+	if (i < MAX_CALLBACKS)
+	{
+		My_CB[i] = pt_Function;
+		Time_CB[i] = Time;
+		TICK_CB[i]= 0;
+		return i;
+	}
+	// IL N’Y A PLUS DE PLACE POUR ENREGISTRER UN CALLBACK
+	else return 255;
+}
+
+//Création callback USART
+void Callbacks_Record_USART(void(*ptUsart)(char*)){
+	My_Usart = ptUsart;
+}
+
+//Callback BUTTON
+void Callbacks_Record_Button(void(*ptButton)(char)){
+	My_Button = ptButton;
+}
+
+// RETIRER FONCTION DE RAPPEL
+void Callbacks_Remove_Timer(unsigned char ID_CB)
+{
+	if (ID_CB >= 0 && ID_CB < MAX_CALLBACKS);
+	{
+		My_CB[ID_CB] = 0;
+		Time_CB[ID_CB] = 0;
+	}
+}
+// BOUCLE PRINCIPALE DE L’OS
+void callbacks_Start(void)
+{
+	unsigned char idx;
+	// INITIALISATION DE TOUTES LES INTERRUPTIONS
+	/* initialise Interruptions */
+
+	sei();
+	// CONFIGURATION TIMER
+	TIMER0_Init_1ms() ;
+	// BOUCLE INFINIE
+	while (1)
+	{
+		// CHECK LES CONDITIONS POUR RAPPELER LES FONCTIONS LIEES AUTEMPS
+		for (idx = 0 ; idx < MAX_CALLBACKS; idx++)
+		{
+			if (My_CB[idx])if (TICK_CB[idx] >= Time_CB[idx])
+			{
+				TICK_CB[idx] = 0;
+				My_CB[idx]();
+			}
+		}
+		if(Receive_complete)
+			Rx_complete(buffer);
+			Receive_complete = FALSE;
+		if(Button != NONE)
+			Button_work(Button);
+			Button =NONE;
+	}
+}
+
+
+// CONTENU DES FONCTIONS INTERNES
+// INTERRUPTIONS
+
+//Interruption INT0
+ISR(INT0_vect)
+{
+	nombre_appuis_bouton = 1;
+}
+
+// INTERRUPTION TIMER
+
+//Interruption TIMER1
+ISR(TIMER1_COMPA_vect)
+{
+	
+	for ( tmp_int = 0 ; tmp_int < MAX_CALLBACKS; tmp_int++) TICK_CB[tmp_int]++;
+	
+}
+
+ISR(USART_RX_vect){
+	buffer[idxBuf] = UDR0;
+	if(buffer[idxBuf] == 0 || buffer[idxBuf] == '\r'){
+		buffer[idxBuf] = 0;
+		idxBuf = 0;
+		Receive_complete = TRUE;
+		Usart_Tx('\r');
+		Usart_Tx('>');
+	}
+	else
+		Usart_Tx(buffer[idxBuf]);
+		idxBuf++;
+}
+
+ISR(PCINT1_vect){
+	char PINC_tmp = PINC;
+	if ((~PINC_tmp&(1<<PC1))!=0)
+		Button = UP;
+	else if ((~PINC_tmp&(1<<PC2))!=0)
+		Button = RIGHT;
+	else if ((~PINC_tmp&(1<<PC3))!=0)
+		Button = CENTER;
+	else if ((~PINC_tmp&(1<<PC4))!=0)
+		Button = DOWN;
+	else if ((~PINC_tmp&(1<<PC5))!=0)
+		Button = LEFT;
+}
+
+ISR(ADC_vect){
+	counterADC++;
+	temperature=(5*ADCH*100)/256;
+	itoa(temperature,int2ascii,10);
+	if(temperature>temperatureMaxMin[0])
+	{
+		temperatureMaxMin[0]=temperature;
+	}
+	else if(temperature<temperatureMaxMin[1])
+	{
+		temperatureMaxMin[1]=temperature;
+	}
+	itoa(temperatureMaxMin[0],int2asciiMax,10);
+	itoa(temperatureMaxMin[1],int2asciiMin,10);
+	if(temperature>temperatureMax)
+	{
+		Usart_string_Tx("Seuil de temperature Max atteint ou depasse, la temperature est de ");
+		Usart_string_Tx(int2ascii);
+		Usart_string_Tx(" degres");
+		Usart_string_Tx("\r");
+	}
+	else if (temperature<20)
+	{
+		Usart_string_Tx("Seuil de temperature Min atteint ou depasse, la temperature est de ");
+		Usart_string_Tx(int2ascii);
+		Usart_string_Tx(" degres");
+		Usart_string_Tx("\r");
+	}
+}

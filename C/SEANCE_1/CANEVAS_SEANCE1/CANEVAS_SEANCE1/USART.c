@@ -1,0 +1,32 @@
+//FONCTIONS USART
+
+
+//INCLUDE
+#include "USART.h"
+#include "Main.h"
+
+
+//DECLARATION DES VARIABLES GLOGALES
+
+
+//PROTOTYPE FONCTIONS INTERNES
+
+
+//CONTENU FONCTIONS EXTERNES
+
+void Usart_Tx(char data)
+{
+    
+
+}
+
+
+
+void USART_Init_9600(void)
+{
+
+}
+
+
+//CONTENU FONCTIONS INTERNES
+

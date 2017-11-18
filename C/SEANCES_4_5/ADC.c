@@ -1,0 +1,28 @@
+//FONCTIONS ADC
+
+
+//INCLUDE
+#include "Main.h"
+
+
+
+//DECLARATION DES VARIABLES GLOGALES
+
+
+//PROTOTYPE FONCTIONS INTERNES
+
+
+//CONTENU FONCTIONS EXTERNES
+
+void Init_ADC(void)
+{
+	
+
+}
+
+void ADC_GO(void)
+{
+		
+}
+
+

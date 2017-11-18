@@ -1,0 +1,185 @@
+//Projet Callback
+// Auteur: Laurent Chevalier
+
+// INCLUDE
+
+#include <avr/io.h>
+#include <avr/interrupt.h>
+#include <stdlib.h>
+
+#include "Main.h"
+#include "TIMERS.h"
+#include "callback.h"
+#include "lcd.h"
+#include "usart.h"
+
+//****************** fonction principale *****************
+// VARIABLES GLOBALES
+unsigned char ID_Bouton;
+unsigned char ID_Clignotement;
+unsigned char ID_Relais;
+unsigned char ID_Arret_Clignotement_rapide;
+unsigned char ID_Clignotement_rapide;
+unsigned char ID_ADC;
+volatile unsigned char nombre_appuis_bouton;
+unsigned char etat;
+
+unsigned char ID_Usart;
+
+char Button1 = NONE;
+extern volatile char int2ascii[20];
+extern volatile char int2asciiMax[20];
+extern volatile char int2asciiMin[20];
+char timeADCascii[20];
+extern volatile int temperature;
+int numberPush=1;
+extern unsigned int TICK_CB[MAX_CALLBACKS];
+int secADC=0;
+int nbreTickADC;
+int timeADC=0;
+extern int counterADC;
+
+
+
+// FONCTIONS DONT ON PASSE LES ADRESSES A callbacks.c POUR QU’ELLES PUISSENT
+// ÊTRE RAPPELEES TOUTES LES X MS
+void Bouton(void);
+void Clignotement(void) ;
+void Relais(void);
+void Arret_Clignotement_rapide(void);
+void Clignotement_rapide(void);
+void Button_work(char);
+void launchADC(void);
+void stopADC(void);
+
+
+
+// FONCTION PRINCIPALE
+int main(void)
+{
+	// INITIALISATION HARDWARE
+	hardware_Init() ;
+	
+	// Configuration de l'usart
+	
+	// Configuration de l'ADC
+	
+
+
+	//INITIALISATION CALLBACKS
+	Callbacks_Init() ;
+	ID_Clignotement = Callbacks_Record_Timer(Clignotement, 500) ; //Clignotement à 1Hz (donc 500ms éteint et 500ms allumé)
+	lcd_init(LCD_DISP_ON);lcd_clrscr();lcd_puts("Tapez une touche"); //Attente et affichage de "Tapez une touche"
+	USART_Init_9600();
+	ID_Bouton = Callbacks_Record_Timer(Bouton, 1000) ;
+	
+	Callbacks_Record_USART(Rx_complete);
+	Callbacks_Record_Button(Button_work);
+	
+	callbacks_Start(); //Lancement des Callbacks (boucle principale)
+	
+	
+	
+	// N’ARRIVE JAMAIS ICI
+}
+// CONTENU DES FONCTIONS CALLBACKS
+void Clignotement(void)
+{
+	PIND =0b10000000; //(Toggle de PD7)
+}
+
+void launchADC(void)
+{
+	ADCSRA |=(1<<ADSC); //Start conversion
+}
+
+void stopADC(void)
+{
+	ADCSRA |=(0<<ADSC); //Stop conversion
+}
+
+void Bouton(void)
+{
+	if(nombre_appuis_bouton==1){
+		if (etat==0){
+		nombre_appuis_bouton=0;
+		etat=TRUE;
+		PIND =0b01000000; // ON ACTIVE LE RELAIS (Toggle de PD6)
+		ID_Relais = Callbacks_Record_Timer(Relais, 3000) ;
+		Callbacks_Remove_Timer(ID_Clignotement);
+		ID_Clignotement_rapide = Callbacks_Record_Timer(Clignotement_rapide, 50); // Clignotement 10Hz (50ms allumé et 50ms éteint)
+		ID_Arret_Clignotement_rapide = Callbacks_Record_Timer(Arret_Clignotement_rapide, 5000);
+		}
+	}
+}
+
+void Relais(void)
+{
+	PIND =0b01000000; // ON DESACTIVE LE RELAIS (Toggle de PD6)
+	Callbacks_Remove_Timer(ID_Relais);
+}
+
+void Arret_Clignotement_rapide(void)
+{
+	Callbacks_Remove_Timer(ID_Clignotement_rapide); // Arret du clignotement à 10Hz
+	ID_Clignotement = Callbacks_Record_Timer(Clignotement, 1000) ; // Remise en marche du clignotement à 1Hz
+	etat = FALSE;
+	Callbacks_Remove_Timer(ID_Arret_Clignotement_rapide);
+	
+}
+
+void Clignotement_rapide(void)
+{
+	PIND =0b10000000; //Toggle de PD7
+}
+// CONTENU DES AUTRES FONCTIONS
+
+
+
+void Rx_complete(char *trame_end){
+	lcd_init(LCD_DISP_ON);lcd_clrscr();lcd_puts("AB");lcd_puts("C");
+}
+
+void Button_work(char Button1){
+	switch(Button1){
+		case UP :
+			lcd_init(LCD_DISP_ON);lcd_clrscr();lcd_puts("UP");
+			break;
+		case RIGHT : 
+		if(numberPush<2)
+		{
+			ID_ADC=Callbacks_Record_Timer(launchADC,3000);
+			launchADC();
+			lcd_init(LCD_DISP_ON);lcd_clrscr();lcd_puts("DATALOGGER");
+			lcd_gotoxy(11,0);
+			lcd_puts(int2ascii);
+			numberPush++;
+		}
+		else
+		{
+			nbreTickADC=TICK_CB[ID_ADC];
+			secADC=nbreTickADC/1000;
+			timeADC=counterADC*3+secADC;
+			itoa(timeADC,timeADCascii,10);
+			Callbacks_Remove_Timer(ID_ADC);
+			lcd_gotoxy(0,1);
+			lcd_puts(timeADCascii);
+			lcd_gotoxy(6,1);
+			lcd_puts(int2asciiMax);
+			lcd_gotoxy(10,1);
+			lcd_puts(int2asciiMin);
+			numberPush--;
+		}
+			break;
+		case CENTER :
+			lcd_init(LCD_DISP_ON);lcd_clrscr();lcd_puts("CENTER");
+			break;
+		case DOWN :
+			lcd_init(LCD_DISP_ON);lcd_clrscr();lcd_puts("DOWN");
+			break;
+		case LEFT : 
+			lcd_init(LCD_DISP_ON);lcd_clrscr();lcd_puts("LEFT");
+			break;
+	}
+}
+
